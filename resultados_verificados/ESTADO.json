@@ -1,0 +1,25 @@
+{
+  "autor": "Kevin Obed Tique Villada",
+  "grupo": "202016911_125",
+  "caso": "Sistema de soporte técnico y mantenimiento de equipos",
+  "mongo_ejecutado": true,
+  "control_independiente_correcto": true,
+  "documentos": 278,
+  "sesion_fuente": "sesion_20261120_085740_455",
+  "servidor": "8.0.38",
+  "shell": "2.14.2",
+  "pendiente": [
+    "Activar presentación: cualquier persona con el enlace, lector",
+    "Confirmar dos aportes de calidad en el foro",
+    "Coordinar investigación y consolidación grupal con enlaces y conclusión individual"
+  ],
+  "capturas_recibidas": 30,
+  "rango_capturas": "0 a 29",
+  "capturas_revisadas": true,
+  "presentacion_url": "https://docs.google.com/presentation/d/1oCLMiYtcBUR8oZHv71eMQ6p8kTLsX8W2r_DqcL-jqIM/edit",
+  "presentacion_diapositivas": 42,
+  "presentacion_revisada": true,
+  "acceso_presentacion_por_enlace": "pendiente de activar por el propietario",
+  "repositorio_url": "https://github.com/Kevinsaso10/BigData-tarea-4",
+  "repositorio_estado": "Código, datos sintéticos, resultados, capturas y presentación PDF incluidos en este repositorio"
+}

@@ -1,0 +1,30 @@
+MODO CAPTURAS CON PAUSAS
+
+Abrir Windows Terminal en PowerShell. No hace falta ejecutar el archivo con doble clic.
+
+cd "C:\Users\gamer\Music\Semestre 9\Big Data\4\Proyecto_Soporte_Kevin"
+.\scripts\ejecutar_consultas.ps1 -Paso todos -Capturas
+
+Cada resultado se queda visible hasta que pulses Enter.
+1. Lee el resultado.
+2. Toma la captura con Windows + Shift + S.
+3. Si el resultado es largo, sube por el texto y toma las capturas adicionales.
+4. Pulsa Enter en la terminal para mostrar el resultado siguiente.
+
+Si solo necesitas repetir una parte:
+.\scripts\ejecutar_consultas.ps1 -Paso crud -Capturas
+.\scripts\ejecutar_consultas.ps1 -Paso filtros -Capturas
+.\scripts\ejecutar_consultas.ps1 -Paso joins -Capturas
+.\scripts\ejecutar_consultas.ps1 -Paso agregaciones -Capturas
+.\scripts\ejecutar_consultas.ps1 -Paso indices -Capturas
+.\scripts\ejecutar_consultas.ps1 -Paso integridad -Capturas
+
+Si necesitas mostrar la carga masiva desde una base nueva, puedes elegir otro nombre propio sin borrar la anterior:
+.\scripts\ejecutar_consultas.ps1 -Paso todos -NombreBD soporte_kevin_125_fotos -Capturas
+
+Al usar el mismo nombre, la carga detecta los documentos existentes y conserva el conjunto en vez de duplicarlo. La demostración CRUD sí repite sus inserciones y elimina solamente sus tres documentos temporales.
+
+Si Windows indica que no permite ejecutar scripts:
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\ejecutar_consultas.ps1 -Paso todos -Capturas
+
+Las capturas se guardan en evidencias\Capturas_Kevin. Los registros de texto se conservan automáticamente en la carpeta de sesión indicada al finalizar.

@@ -1,0 +1,270 @@
+[
+  {
+    "titulo": "FILTRO DE ESTADO Y PRIORIDAD",
+    "filtro": {
+      "estado": {
+        "$in": [
+          "abierto",
+          "en_proceso"
+        ]
+      },
+      "prioridad": "alta"
+    },
+    "coincidencias": 15,
+    "muestra": [
+      {
+        "_id": "TK-0129",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "total_cop": 160000
+      },
+      {
+        "_id": "TK-0153",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "total_cop": 155000
+      },
+      {
+        "_id": "TK-0057",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "total_cop": 150000
+      },
+      {
+        "_id": "TK-0105",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "total_cop": 145000
+      },
+      {
+        "_id": "TK-0081",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "total_cop": 140000
+      }
+    ]
+  },
+  {
+    "titulo": "RANGO MONETARIO",
+    "filtro": {
+      "total_cop": {
+        "$gte": 100000,
+        "$lte": 200000
+      }
+    },
+    "coincidencias": 101,
+    "muestra": [
+      {
+        "_id": "TK-0007",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 185000
+      },
+      {
+        "_id": "TK-0015",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 185000
+      },
+      {
+        "_id": "TK-0023",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "total_cop": 185000
+      },
+      {
+        "_id": "TK-0047",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "total_cop": 185000
+      },
+      {
+        "_id": "TK-0063",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 185000
+      }
+    ]
+  },
+  {
+    "titulo": "OPERADOR OR",
+    "filtro": {
+      "$or": [
+        {
+          "prioridad": "alta"
+        },
+        {
+          "etiquetas": "domicilio"
+        }
+      ]
+    },
+    "coincidencias": 84,
+    "muestra": [
+      {
+        "_id": "TK-0069",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 230000
+      },
+      {
+        "_id": "TK-0117",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 220000
+      },
+      {
+        "_id": "TK-0015",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 185000
+      },
+      {
+        "_id": "TK-0063",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 185000
+      },
+      {
+        "_id": "TK-0165",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 175000
+      }
+    ]
+  },
+  {
+    "titulo": "FILTRO DE ARREGLOS",
+    "filtro": {
+      "servicios": {
+        "$elemMatch": {
+          "cantidad": {
+            "$gte": 1
+          },
+          "precio_unitario_cop": {
+            "$gte": 150000
+          }
+        }
+      }
+    },
+    "coincidencias": 12,
+    "muestra": [
+      {
+        "_id": "TK-0005",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "total_cop": 235000
+      },
+      {
+        "_id": "TK-0069",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 230000
+      },
+      {
+        "_id": "TK-0133",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 225000
+      },
+      {
+        "_id": "TK-0117",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 220000
+      },
+      {
+        "_id": "TK-0007",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 185000
+      }
+    ]
+  },
+  {
+    "titulo": "EXISTENCIA Y DESIGUALDAD",
+    "filtro": {
+      "fecha_cierre": {
+        "$exists": true,
+        "$ne": null
+      },
+      "estado": "cerrado"
+    },
+    "coincidencias": 89,
+    "muestra": [
+      {
+        "_id": "TK-0005",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "total_cop": 235000
+      },
+      {
+        "_id": "TK-0069",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 230000
+      },
+      {
+        "_id": "TK-0133",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 225000
+      },
+      {
+        "_id": "TK-0117",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 220000
+      },
+      {
+        "_id": "TK-0007",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 185000
+      }
+    ]
+  },
+  {
+    "titulo": "ETIQUETAS CON ALL",
+    "filtro": {
+      "etiquetas": {
+        "$all": [
+          "prueba",
+          "domicilio"
+        ]
+      }
+    },
+    "coincidencias": 36,
+    "muestra": [
+      {
+        "_id": "TK-0021",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "total_cop": 170000
+      },
+      {
+        "_id": "TK-0061",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 170000
+      },
+      {
+        "_id": "TK-0001",
+        "estado": "abierto",
+        "prioridad": "baja",
+        "total_cop": 160000
+      },
+      {
+        "_id": "TK-0041",
+        "estado": "abierto",
+        "prioridad": "media",
+        "total_cop": 160000
+      },
+      {
+        "_id": "TK-0031",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "total_cop": 140000
+      }
+    ]
+  }
+]

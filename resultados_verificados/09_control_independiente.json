@@ -1,0 +1,16 @@
+{
+  "verificado": true,
+  "documentos": 278,
+  "tickets": 180,
+  "coinciden": [
+    "conteos",
+    "estados",
+    "importes",
+    "promedios",
+    "meses",
+    "referencias",
+    "fechas",
+    "totales_por_items"
+  ],
+  "fuente": "Ejecución real de MongoDB contrastada con control Python independiente."
+}

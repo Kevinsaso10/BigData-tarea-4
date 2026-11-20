@@ -1,0 +1,18 @@
+load(require('path').join(process.env.TAREA4_RAIZ, 'mongodb', 'comun.js'));
+comprobarOrigen();
+const estadosPipeline=[{$group:{_id:'$estado',tickets:{$sum:1}}},{$sort:{_id:1}}];
+const estados=lab.tickets.aggregate(estadosPipeline).toArray();
+mostrar('CONTAR POR ESTADO','db.tickets.aggregate('+JSON.stringify(estadosPipeline)+')',estados);
+const financieros=[{$match:{estado:'cerrado'}},{$group:{_id:'$estado_pago',tickets:{$sum:1},importe_cop:{$sum:'$total_cop'},importe_medio_cop:{$avg:'$total_cop'}}},{$sort:{_id:1}}];
+const finanzas=lab.tickets.aggregate(financieros).toArray();
+mostrar('SUMAR Y PROMEDIAR POR ESTADO DE PAGO','db.tickets.aggregate('+JSON.stringify(financieros)+')',finanzas);
+const mesesPipeline=[{$match:{estado:'cerrado',estado_pago:'pagado'}},{$group:{_id:{$dateToString:{format:'%Y-%m',date:'$fecha_cierre',timezone:'America/Bogota'}},tickets_pagados:{$sum:1},cobrado_cop:{$sum:'$total_cop'}}},{$sort:{_id:1}}];
+const meses=lab.tickets.aggregate(mesesPipeline).toArray();
+mostrar('COBROS POR MES DE CIERRE','db.tickets.aggregate('+JSON.stringify(mesesPipeline)+')',meses);
+const horasPipeline=[{$match:{estado:'cerrado'}},{$project:{horas:{$divide:[{$subtract:['$fecha_cierre','$fecha_apertura']},3600000]}}},{$group:{_id:null,tickets:{$sum:1},horas_media:{$avg:'$horas'},horas_min:{$min:'$horas'},horas_max:{$max:'$horas'}}}];
+const horas=lab.tickets.aggregate(horasPipeline).toArray();
+mostrar('TIEMPO DE RESOLUCION','db.tickets.aggregate('+JSON.stringify(horasPipeline)+')',horas);
+const serviciosPipeline=[{$match:{estado:'cerrado',estado_pago:'pagado'}},{$unwind:'$servicios'},{$group:{_id:'$servicios.servicio',unidades:{$sum:'$servicios.cantidad'},valor_lineas_cop:{$sum:{$multiply:['$servicios.cantidad','$servicios.precio_unitario_cop']}}}},{$sort:{valor_lineas_cop:-1,_id:1}}];
+const servicios=lab.tickets.aggregate(serviciosPipeline).toArray();
+mostrar('SERVICIOS EMBEBIDOS CON UNWIND','db.tickets.aggregate('+JSON.stringify(serviciosPipeline)+')',servicios);
+guardar('06_agregaciones',{conteos:conteos(),estados,finanzas,meses,horas,servicios,alcance:'Datos sintéticos. Facturado: cerrado. Cobrado: cerrado y pagado. Las líneas de servicio excluyen desplazamiento.'});

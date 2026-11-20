@@ -1,0 +1,45 @@
+{
+  "insertOne": {
+    "acknowledged": true,
+    "insertedId": "DEMO-125-01"
+  },
+  "insertMany": {
+    "acknowledged": true,
+    "insertedIds": {
+      "0": "DEMO-125-02",
+      "1": "DEMO-125-03"
+    }
+  },
+  "validacion": {
+    "codigo": 121,
+    "mensaje": "Document failed validation"
+  },
+  "updateOne": {
+    "acknowledged": true,
+    "insertedId": null,
+    "matchedCount": 1,
+    "modifiedCount": 1,
+    "upsertedCount": 0
+  },
+  "updateMany": {
+    "acknowledged": true,
+    "insertedId": null,
+    "matchedCount": 2,
+    "modifiedCount": 2,
+    "upsertedCount": 0
+  },
+  "deleteOne": {
+    "acknowledged": true,
+    "deletedCount": 1
+  },
+  "deleteMany": {
+    "acknowledged": true,
+    "deletedCount": 2
+  },
+  "conteos_finales": {
+    "clientes": 30,
+    "tecnicos": 8,
+    "equipos": 60,
+    "tickets": 180
+  }
+}

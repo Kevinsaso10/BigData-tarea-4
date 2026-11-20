@@ -1,0 +1,81 @@
+{
+  "origen": "sintetico_kevin_125_v1",
+  "semilla": 125,
+  "documentos": {
+    "clientes": 30,
+    "tecnicos": 8,
+    "equipos": 60,
+    "tickets": 180
+  },
+  "total_documentos": 278,
+  "estados": {
+    "abierto": 23,
+    "cancelado": 22,
+    "cerrado": 89,
+    "en_proceso": 23,
+    "espera_repuesto": 23
+  },
+  "finanzas": {
+    "tickets_cerrados": 89,
+    "tickets_pagados": 72,
+    "tickets_pendientes_pago": 17,
+    "facturado_cerrados_cop": 10500000,
+    "cobrado_cop": 8620000,
+    "por_cobrar_cop": 1880000,
+    "ticket_medio_pagado_cop": 119722.22222222222,
+    "horas_resolucion_media": 45.30337078651685
+  },
+  "cobros_por_mes": [
+    {
+      "mes": "2026-01",
+      "tickets_pagados": 9,
+      "cobrado_cop": 985000
+    },
+    {
+      "mes": "2026-02",
+      "tickets_pagados": 6,
+      "cobrado_cop": 950000
+    },
+    {
+      "mes": "2026-03",
+      "tickets_pagados": 14,
+      "cobrado_cop": 1740000
+    },
+    {
+      "mes": "2026-04",
+      "tickets_pagados": 5,
+      "cobrado_cop": 545000
+    },
+    {
+      "mes": "2026-05",
+      "tickets_pagados": 10,
+      "cobrado_cop": 1110000
+    },
+    {
+      "mes": "2026-06",
+      "tickets_pagados": 5,
+      "cobrado_cop": 630000
+    },
+    {
+      "mes": "2026-07",
+      "tickets_pagados": 8,
+      "cobrado_cop": 955000
+    },
+    {
+      "mes": "2026-08",
+      "tickets_pagados": 3,
+      "cobrado_cop": 415000
+    },
+    {
+      "mes": "2026-09",
+      "tickets_pagados": 9,
+      "cobrado_cop": 935000
+    },
+    {
+      "mes": "2026-10",
+      "tickets_pagados": 3,
+      "cobrado_cop": 355000
+    }
+  ],
+  "alcance": "Datos sintéticos. Importes enteros en COP. Cerrado define facturado; cerrado y pagado define cobrado."
+}

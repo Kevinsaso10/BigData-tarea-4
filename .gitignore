@@ -1,0 +1,6 @@
+config/local.json
+runtime/
+evidencias/sesion_*/
+evidencias/ultima_sesion.txt
+__pycache__/
+*.zip

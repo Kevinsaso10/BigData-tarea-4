@@ -1,0 +1,12 @@
+{
+  "archivo": "soporte_sintetico.json",
+  "sha256": "e47aacf3848a38aa4fe82d958795ad915354c01c204d66a86e9882b9960edf6c",
+  "origen": "sintetico_kevin_125_v1",
+  "conteos": {
+    "clientes": 30,
+    "tecnicos": 8,
+    "equipos": 60,
+    "tickets": 180
+  },
+  "fecha_preparacion": "2026-11-19"
+}

@@ -1,0 +1,11 @@
+{
+  "base": "soporte_kevin_125_20261119",
+  "documentos": {
+    "clientes": 30,
+    "tecnicos": 8,
+    "equipos": 60,
+    "tickets": 180
+  },
+  "errores": [],
+  "validacion_correcta": true
+}

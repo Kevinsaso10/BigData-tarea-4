@@ -1,0 +1,65 @@
+TAREA 4 - PASOS Y CAPTURAS DE KEVIN
+
+1. PUBLICAR EL CASO
+Copiar el texto de 01_APORTE_INICIAL_FORO.txt en el foro de la Tarea 4.
+
+2. ABRIR WINDOWS TERMINAL EN POWERSHELL
+Entrar a la carpeta del proyecto:
+cd "C:\Users\gamer\Music\Semestre 9\Big Data\4\Proyecto_Soporte_Kevin"
+
+Si PowerShell indica que la ejecución de scripts está deshabilitada, ejecutar cada script con:
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\NOMBRE_DEL_SCRIPT.ps1
+Ese ajuste se aplica únicamente a ese proceso.
+
+3. CAPTURA 01 - CONEXIÓN
+.\scripts\control_mongodb.ps1 iniciar
+Cuando aparezcan conexion ok:1, versión y nombre de la base, tomar la captura.
+Guardar como 01_conexion.png en evidencias\Capturas_Kevin.
+
+4. CAPTURAS DE LAS OPERACIONES
+Usar -Capturas para que cada salida espere a que pulses Enter. Tomar la captura antes de continuar.
+Para repetir desde una base NUEVA sin borrar la ya verificada, usar un nombre propio que empiece por soporte_kevin_125_:
+.\scripts\ejecutar_consultas.ps1 -Paso preparar -NombreBD soporte_kevin_125_capturas -Capturas
+.\scripts\ejecutar_consultas.ps1 -Paso cargar -NombreBD soporte_kevin_125_capturas -Capturas
+Captura 02: colecciones y validación. Captura 03: inserciones masivas y conteos finales 30, 8, 60 y 180.
+La segunda orden no reinserta los datos si esa misma base ya estaba cargada.
+
+.\scripts\ejecutar_consultas.ps1 -Paso crud -NombreBD soporte_kevin_125_capturas -Capturas
+Capturas 04 y 05: inserción, rechazo del documento inválido, actualización, eliminación y conteos finales. Se puede subir por el texto con la rueda del ratón.
+
+.\scripts\ejecutar_consultas.ps1 -Paso filtros -NombreBD soporte_kevin_125_capturas -Capturas
+Captura 06: filtros, operadores y sus resultados.
+
+.\scripts\ejecutar_consultas.ps1 -Paso joins -NombreBD soporte_kevin_125_capturas -Capturas
+Captura 07: ticket relacionado con cliente, equipo y técnico. Captura 08: clientes con mayor importe cobrado.
+
+.\scripts\ejecutar_consultas.ps1 -Paso agregaciones -NombreBD soporte_kevin_125_capturas -Capturas
+Captura 09: conteo por estado y suma/promedio por estado de pago. Captura 10: cobros por mes y tiempo medio de resolución.
+
+.\scripts\ejecutar_consultas.ps1 -Paso indices -NombreBD soporte_kevin_125_capturas -Capturas
+Captura 11: referencia con recorrido natural y plan de índice elegido por MongoDB. Conservar los nombres exactos y las métricas reales; el índice puede cubrir la consulta sin leer documentos completos.
+
+.\scripts\ejecutar_consultas.ps1 -Paso integridad -NombreBD soporte_kevin_125_capturas -Capturas
+Captura 12: errores vacíos, validacion_correcta true y conteos de la base.
+
+Las capturas deben mostrar el código y la salida. Si una consulta queda demasiado larga, abrir su archivo .js en el editor y tomar otra captura del pipeline completo. Los registros conservan toda la salida y no reemplazan las capturas requeridas por la guía.
+
+5. COMPROBACIÓN AUTOMÁTICA COMPLETA
+Para generar todos los resultados en una misma carpeta de sesión:
+.\scripts\ejecutar_consultas.ps1 -Paso todos -NombreBD soporte_kevin_125_capturas
+py .\scripts\verificar_resultados.py
+El verificador necesita las salidas de agregaciones e integridad en la misma carpeta; por eso se usa todos para este control.
+
+6. MATERIALES PENDIENTES PARA ENTREGAR
+- Segundo aporte de calidad en el foro con resultados, dificultades y soluciones.
+- Presentación online individual con caso, esquema y capturas del código y los resultados.
+- Enlace al repositorio de código solicitado por el tutor.
+- Una conclusión individual de la Tarea 4.
+- Aporte a la investigación grupal de NoSQL según el reparto que acuerden.
+- Integración en Tarea4_grupo.pdf y entrega por la persona elegida. Harold anunció ese rol en el foro.
+
+La guía no pide video de esta práctica.
+
+7. CERRAR EL MOTOR AL TERMINAR
+.\scripts\control_mongodb.ps1 detener
+Para volver a trabajar: .\scripts\control_mongodb.ps1 iniciar

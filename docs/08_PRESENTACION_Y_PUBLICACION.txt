@@ -1,0 +1,21 @@
+PRESENTACIÓN INDIVIDUAL — TAREA 4
+
+Kevin Obed Tique Villada — Grupo 202016911_125
+
+Presentación revisada: https://docs.google.com/presentation/d/1oCLMiYtcBUR8oZHv71eMQ6p8kTLsX8W2r_DqcL-jqIM/edit
+42 diapositivas: 11 de explicación y referencias, una portada del anexo y 30 capturas originales.
+Acción pendiente: Compartir > Acceso general > Cualquier persona con el enlace > Lector.
+
+Repositorio: https://github.com/Kevinsaso10/BigData-tarea-4
+Este repositorio incluye mongodb, scripts, datos, config, docs, resultados_verificados, las 30 capturas y la presentación PDF.
+El ZIP omite binarios de MongoDB, datos de ejecución, rutas locales y las imágenes de las capturas.
+
+EVIDENCIAS
+Las capturas se conservan sin cambios. La 1 es un fragmento del validador de equipos.
+La 28 corta el final del plan; la diapositiva 9 explica las estadísticas completas verificadas en 07_indices.json.
+El control independiente de la sesión sesion_20261120_085740_455 fue correcto.
+
+ENTREGA ACADÉMICA
+Confirmar dos aportes de calidad en el foro. El texto inicial está en docs/01_APORTE_INICIAL_FORO.txt.
+Enviar a la persona que consolida: enlace de la presentación como lector, enlace al código ya subido y conclusión individual de docs/05_RESULTADOS_Y_CONCLUSION.txt.
+El informe grupal es Tarea4_grupo.pdf y debe entregarlo la persona designada en el espacio de evaluación. Esta preparación no acredita que el grupo ya lo haya enviado.

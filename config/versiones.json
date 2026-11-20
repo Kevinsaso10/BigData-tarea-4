@@ -1,0 +1,16 @@
+{
+  "servidor": {
+    "version": "8.0.38",
+    "archivo": "mongodb-windows-x86_64-8.0.38.zip",
+    "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.38.zip",
+    "sha256": "85147ae32f9bb9a2e5a0a3875b0ffcc4423ab7a49bc4f75cb4bbc9811883d3de",
+    "fuente_huella": "https://downloads.mongodb.org/current.json"
+  },
+  "shell": {
+    "version": "2.14.2",
+    "archivo": "mongosh-2.14.2-win32-x64.zip",
+    "url": "https://downloads.mongodb.com/compass/mongosh-2.14.2-win32-x64.zip",
+    "sha256": "93072fa3466fdd309c3e40ec0b1e8b805a90ef7e455868320117b3d2c756a4bc",
+    "fuente_huella": "https://api.github.com/repos/mongodb-js/mongosh/releases/tags/v2.14.2"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "conteos": {
+    "clientes": 30,
+    "tecnicos": 8,
+    "equipos": 60,
+    "tickets": 180
+  },
+  "estados": [
+    {
+      "_id": "abierto",
+      "tickets": 23
+    },
+    {
+      "_id": "cancelado",
+      "tickets": 22
+    },
+    {
+      "_id": "cerrado",
+      "tickets": 89
+    },
+    {
+      "_id": "en_proceso",
+      "tickets": 23
+    },
+    {
+      "_id": "espera_repuesto",
+      "tickets": 23
+    }
+  ],
+  "finanzas": [
+    {
+      "_id": "pagado",
+      "tickets": 72,
+      "importe_cop": 8620000,
+      "importe_medio_cop": 119722.22222222222
+    },
+    {
+      "_id": "pendiente",
+      "tickets": 17,
+      "importe_cop": 1880000,
+      "importe_medio_cop": 110588.23529411765
+    }
+  ],
+  "meses": [
+    {
+      "_id": "2026-01",
+      "tickets_pagados": 9,
+      "cobrado_cop": 985000
+    },
+    {
+      "_id": "2026-02",
+      "tickets_pagados": 6,
+      "cobrado_cop": 950000
+    },
+    {
+      "_id": "2026-03",
+      "tickets_pagados": 14,
+      "cobrado_cop": 1740000
+    },
+    {
+      "_id": "2026-04",
+      "tickets_pagados": 5,
+      "cobrado_cop": 545000
+    },
+    {
+      "_id": "2026-05",
+      "tickets_pagados": 10,
+      "cobrado_cop": 1110000
+    },
+    {
+      "_id": "2026-06",
+      "tickets_pagados": 5,
+      "cobrado_cop": 630000
+    },
+    {
+      "_id": "2026-07",
+      "tickets_pagados": 8,
+      "cobrado_cop": 955000
+    },
+    {
+      "_id": "2026-08",
+      "tickets_pagados": 3,
+      "cobrado_cop": 415000
+    },
+    {
+      "_id": "2026-09",
+      "tickets_pagados": 9,
+      "cobrado_cop": 935000
+    },
+    {
+      "_id": "2026-10",
+      "tickets_pagados": 3,
+      "cobrado_cop": 355000
+    }
+  ],
+  "horas": [
+    {
+      "_id": null,
+      "tickets": 89,
+      "horas_media": 45.30337078651685,
+      "horas_min": 3,
+      "horas_max": 92
+    }
+  ],
+  "servicios": [
+    {
+      "_id": "reparacion_hardware",
+      "unidades": 12,
+      "valor_lineas_cop": 2220000
+    },
+    {
+      "_id": "instalacion_software",
+      "unidades": 14,
+      "valor_lineas_cop": 1750000
+    },
+    {
+      "_id": "respaldo_datos",
+      "unidades": 15,
+      "valor_lineas_cop": 1275000
+    },
+    {
+      "_id": "mantenimiento",
+      "unidades": 13,
+      "valor_lineas_cop": 1235000
+    },
+    {
+      "_id": "configuracion_red",
+      "unidades": 8,
+      "valor_lineas_cop": 920000
+    },
+    {
+      "_id": "insumo_repuesto",
+      "unidades": 18,
+      "valor_lineas_cop": 770000
+    },
+    {
+      "_id": "diagnostico",
+      "unidades": 10,
+      "valor_lineas_cop": 450000
+    }
+  ],
+  "alcance": "Datos sintéticos. Facturado: cerrado. Cobrado: cerrado y pagado. Las líneas de servicio excluyen desplazamiento."
+}

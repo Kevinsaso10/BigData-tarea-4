@@ -1,0 +1,85 @@
+{
+  "referencia_recorrido_natural_forzado": {
+    "plan": {
+      "isCached": false,
+      "stage": "PROJECTION_SIMPLE",
+      "transformBy": {
+        "_id": 1,
+        "estado": 1,
+        "fecha_apertura": 1
+      },
+      "inputStage": {
+        "stage": "SORT",
+        "sortPattern": {
+          "fecha_apertura": -1,
+          "_id": 1
+        },
+        "memLimit": 104857600,
+        "limitAmount": 10,
+        "type": "simple",
+        "inputStage": {
+          "stage": "COLLSCAN",
+          "filter": {
+            "estado": {
+              "$eq": "en_proceso"
+            }
+          },
+          "direction": "forward"
+        }
+      }
+    },
+    "devueltos": 10,
+    "documentos_examinados": 180,
+    "claves_examinadas": 0
+  },
+  "plan_elegido_por_mongodb": {
+    "plan": {
+      "isCached": false,
+      "stage": "LIMIT",
+      "limitAmount": 10,
+      "inputStage": {
+        "stage": "PROJECTION_COVERED",
+        "transformBy": {
+          "_id": 1,
+          "estado": 1,
+          "fecha_apertura": 1
+        },
+        "inputStage": {
+          "stage": "IXSCAN",
+          "keyPattern": {
+            "estado": 1,
+            "fecha_apertura": -1,
+            "_id": 1
+          },
+          "indexName": "idx_estado_fecha_id",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "estado": [],
+            "fecha_apertura": [],
+            "_id": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "estado": [
+              "[\"en_proceso\", \"en_proceso\"]"
+            ],
+            "fecha_apertura": [
+              "[MaxKey, MinKey]"
+            ],
+            "_id": [
+              "[MinKey, MaxKey]"
+            ]
+          }
+        }
+      }
+    },
+    "devueltos": 10,
+    "documentos_examinados": 0,
+    "claves_examinadas": 10
+  },
+  "nota": "Referencia con hint({$natural:1}) frente al plan elegido tras crear índice. No es un benchmark de Big Data."
+}

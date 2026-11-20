@@ -1,0 +1,50 @@
+{
+  "detalle": [
+    {
+      "_id": "TK-0001",
+      "estado": "abierto",
+      "total_cop": 160000,
+      "cliente": "Cliente de prueba 009",
+      "ciudad": "Cali",
+      "equipo": "portatil",
+      "tecnico": "Técnico de prueba 02"
+    }
+  ],
+  "clientes": [
+    {
+      "_id": "CLI-004",
+      "tickets": 4,
+      "cobrado_cop": 690000,
+      "nombre": "Cliente de prueba 004",
+      "ciudad": "Ibagué"
+    },
+    {
+      "_id": "CLI-010",
+      "tickets": 4,
+      "cobrado_cop": 640000,
+      "nombre": "Cliente de prueba 010",
+      "ciudad": "Ibagué"
+    },
+    {
+      "_id": "CLI-018",
+      "tickets": 4,
+      "cobrado_cop": 545000,
+      "nombre": "Cliente de prueba 018",
+      "ciudad": "Barranquilla"
+    },
+    {
+      "_id": "CLI-016",
+      "tickets": 4,
+      "cobrado_cop": 490000,
+      "nombre": "Cliente de prueba 016",
+      "ciudad": "Ibagué"
+    },
+    {
+      "_id": "CLI-028",
+      "tickets": 2,
+      "cobrado_cop": 415000,
+      "nombre": "Cliente de prueba 028",
+      "ciudad": "Ibagué"
+    }
+  ]
+}

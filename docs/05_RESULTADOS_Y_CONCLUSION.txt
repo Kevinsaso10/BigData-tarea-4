@@ -1,0 +1,43 @@
+RESULTADOS VERIFICADOS Y CONCLUSIÓN INDIVIDUAL
+
+Kevin Obed Tique Villada - Grupo 202016911_125
+Caso: Sistema de soporte técnico y mantenimiento de equipos.
+
+ESTADO DEL TRABAJO
+Código ejecutado con MongoDB 8.0.38 y mongosh 2.14.2 en este equipo. Los conteos, estados, importes, promedios y agregados mensuales coinciden con un control independiente generado en Python. El control de referencias, propietarios de equipos, fechas y totales no encontró errores.
+
+Se recibieron y revisaron 30 capturas (0 a 29) del 20 de noviembre de 2026. La presentación individual está creada y revisada; queda activar su acceso mediante enlace. Los archivos del código se incluyen en este repositorio. La participación en el foro y la entrega grupal no se dan por confirmadas.
+
+Presentación: https://docs.google.com/presentation/d/1oCLMiYtcBUR8oZHv71eMQ6p8kTLsX8W2r_DqcL-jqIM/edit
+Repositorio: https://github.com/Kevinsaso10/BigData-tarea-4
+
+Este archivo no es el informe grupal.
+
+BASE DE DATOS
+30 clientes + 8 técnicos + 60 equipos + 180 tickets = 278 documentos sintéticos.
+Las operaciones CRUD insertan, actualizan y eliminan solo tres tickets de demostración. Al finalizar permanecen los 278 documentos originales de negocio.
+
+ESTADOS DE LOS 180 TICKETS
+Abiertos: 23
+En proceso: 23
+En espera de repuesto: 23
+Cerrados: 89
+Cancelados: 22
+
+IMPORTES Y PROMEDIOS
+Tickets cerrados y pagados: 72
+Tickets cerrados pendientes de pago: 17
+Facturado en tickets cerrados: $10.500.000 COP
+Cobrado en tickets cerrados y pagados: $8.620.000 COP
+Por cobrar de tickets cerrados: $1.880.000 COP
+Comprobación: facturado = cobrado + por cobrar.
+Importe medio de tickets cerrados y pagados: $119,722.22 COP
+Tiempo medio de resolución de tickets cerrados: 45.30 horas
+
+Los cobros mensuales se agrupan por fecha de cierre en Bogotá. No se dispone de una fecha de pago bancaria separada; no se interpretan como flujo de caja por fecha de pago. Son cifras del conjunto sintético y no describen un servicio real.
+
+ÍNDICE
+El plan elegido para consultar los diez tickets en proceso más recientes contiene IXSCAN y PROJECTION_COVERED. En esta ejecución examinó 10 claves y 0 documentos completos. La referencia con recorrido natural forzado examinó 180 documentos. No es una medición de escalabilidad de Big Data.
+
+CONCLUSIÓN INDIVIDUAL
+La práctica permitió organizar clientes, equipos, técnicos y solicitudes con un modelo documental que combina referencias y servicios embebidos. Las consultas CRUD, los filtros, las uniones y las agregaciones permitieron verificar los estados de atención y separar lo facturado de lo cobrado. La validación del esquema y el control independiente ayudaron a comprobar la coherencia de los datos, mientras explain mostró el uso de un índice para una consulta concreta. Los resultados corresponden a datos sintéticos ejecutados localmente y no demuestran por sí solos rendimiento a gran escala.

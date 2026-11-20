@@ -1,0 +1,5783 @@
+{
+  "clientes": [
+    {
+      "_id": "CLI-001",
+      "nombre": "Cliente de prueba 001",
+      "ciudad": "Bogotá",
+      "segmento": "persona",
+      "correo": "cliente001@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-002",
+      "nombre": "Cliente de prueba 002",
+      "ciudad": "Medellín",
+      "segmento": "pyme",
+      "correo": "cliente002@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-003",
+      "nombre": "Cliente de prueba 003",
+      "ciudad": "Cali",
+      "segmento": "educativo",
+      "correo": "cliente003@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-004",
+      "nombre": "Cliente de prueba 004",
+      "ciudad": "Ibagué",
+      "segmento": "persona",
+      "correo": "cliente004@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-005",
+      "nombre": "Cliente de prueba 005",
+      "ciudad": "Pereira",
+      "segmento": "pyme",
+      "correo": "cliente005@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-006",
+      "nombre": "Cliente de prueba 006",
+      "ciudad": "Barranquilla",
+      "segmento": "educativo",
+      "correo": "cliente006@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-007",
+      "nombre": "Cliente de prueba 007",
+      "ciudad": "Bogotá",
+      "segmento": "persona",
+      "correo": "cliente007@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-008",
+      "nombre": "Cliente de prueba 008",
+      "ciudad": "Medellín",
+      "segmento": "pyme",
+      "correo": "cliente008@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-009",
+      "nombre": "Cliente de prueba 009",
+      "ciudad": "Cali",
+      "segmento": "educativo",
+      "correo": "cliente009@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-010",
+      "nombre": "Cliente de prueba 010",
+      "ciudad": "Ibagué",
+      "segmento": "persona",
+      "correo": "cliente010@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-011",
+      "nombre": "Cliente de prueba 011",
+      "ciudad": "Pereira",
+      "segmento": "pyme",
+      "correo": "cliente011@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-012",
+      "nombre": "Cliente de prueba 012",
+      "ciudad": "Barranquilla",
+      "segmento": "educativo",
+      "correo": "cliente012@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-013",
+      "nombre": "Cliente de prueba 013",
+      "ciudad": "Bogotá",
+      "segmento": "persona",
+      "correo": "cliente013@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-014",
+      "nombre": "Cliente de prueba 014",
+      "ciudad": "Medellín",
+      "segmento": "pyme",
+      "correo": "cliente014@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-015",
+      "nombre": "Cliente de prueba 015",
+      "ciudad": "Cali",
+      "segmento": "educativo",
+      "correo": "cliente015@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-016",
+      "nombre": "Cliente de prueba 016",
+      "ciudad": "Ibagué",
+      "segmento": "persona",
+      "correo": "cliente016@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-017",
+      "nombre": "Cliente de prueba 017",
+      "ciudad": "Pereira",
+      "segmento": "pyme",
+      "correo": "cliente017@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-018",
+      "nombre": "Cliente de prueba 018",
+      "ciudad": "Barranquilla",
+      "segmento": "educativo",
+      "correo": "cliente018@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-019",
+      "nombre": "Cliente de prueba 019",
+      "ciudad": "Bogotá",
+      "segmento": "persona",
+      "correo": "cliente019@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-020",
+      "nombre": "Cliente de prueba 020",
+      "ciudad": "Medellín",
+      "segmento": "pyme",
+      "correo": "cliente020@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-021",
+      "nombre": "Cliente de prueba 021",
+      "ciudad": "Cali",
+      "segmento": "educativo",
+      "correo": "cliente021@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-022",
+      "nombre": "Cliente de prueba 022",
+      "ciudad": "Ibagué",
+      "segmento": "persona",
+      "correo": "cliente022@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-023",
+      "nombre": "Cliente de prueba 023",
+      "ciudad": "Pereira",
+      "segmento": "pyme",
+      "correo": "cliente023@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-024",
+      "nombre": "Cliente de prueba 024",
+      "ciudad": "Barranquilla",
+      "segmento": "educativo",
+      "correo": "cliente024@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-025",
+      "nombre": "Cliente de prueba 025",
+      "ciudad": "Bogotá",
+      "segmento": "persona",
+      "correo": "cliente025@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-026",
+      "nombre": "Cliente de prueba 026",
+      "ciudad": "Medellín",
+      "segmento": "pyme",
+      "correo": "cliente026@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-027",
+      "nombre": "Cliente de prueba 027",
+      "ciudad": "Cali",
+      "segmento": "educativo",
+      "correo": "cliente027@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-028",
+      "nombre": "Cliente de prueba 028",
+      "ciudad": "Ibagué",
+      "segmento": "persona",
+      "correo": "cliente028@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-029",
+      "nombre": "Cliente de prueba 029",
+      "ciudad": "Pereira",
+      "segmento": "pyme",
+      "correo": "cliente029@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "CLI-030",
+      "nombre": "Cliente de prueba 030",
+      "ciudad": "Barranquilla",
+      "segmento": "educativo",
+      "correo": "cliente030@example.invalid",
+      "origen": "sintetico_kevin_125_v1"
+    }
+  ],
+  "tecnicos": [
+    {
+      "_id": "TEC-01",
+      "nombre": "Técnico de prueba 01",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-02",
+      "nombre": "Técnico de prueba 02",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-03",
+      "nombre": "Técnico de prueba 03",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-04",
+      "nombre": "Técnico de prueba 04",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-05",
+      "nombre": "Técnico de prueba 05",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-06",
+      "nombre": "Técnico de prueba 06",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-07",
+      "nombre": "Técnico de prueba 07",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TEC-08",
+      "nombre": "Técnico de prueba 08",
+      "especialidades": [
+        "hardware",
+        "software",
+        "redes"
+      ],
+      "activo": true,
+      "origen": "sintetico_kevin_125_v1"
+    }
+  ],
+  "equipos": [
+    {
+      "_id": "EQ-001",
+      "cliente_id": "CLI-001",
+      "tipo": "portatil",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0001",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-002",
+      "cliente_id": "CLI-002",
+      "tipo": "escritorio",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0002",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-003",
+      "cliente_id": "CLI-003",
+      "tipo": "impresora",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0003",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-004",
+      "cliente_id": "CLI-004",
+      "tipo": "router",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0004",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-005",
+      "cliente_id": "CLI-005",
+      "tipo": "portatil",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0005",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-006",
+      "cliente_id": "CLI-006",
+      "tipo": "escritorio",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0006",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-007",
+      "cliente_id": "CLI-007",
+      "tipo": "impresora",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0007",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-008",
+      "cliente_id": "CLI-008",
+      "tipo": "router",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0008",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-009",
+      "cliente_id": "CLI-009",
+      "tipo": "portatil",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0009",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-010",
+      "cliente_id": "CLI-010",
+      "tipo": "escritorio",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0010",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-011",
+      "cliente_id": "CLI-011",
+      "tipo": "impresora",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0011",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-012",
+      "cliente_id": "CLI-012",
+      "tipo": "router",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0012",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-013",
+      "cliente_id": "CLI-013",
+      "tipo": "portatil",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0013",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-014",
+      "cliente_id": "CLI-014",
+      "tipo": "escritorio",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0014",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-015",
+      "cliente_id": "CLI-015",
+      "tipo": "impresora",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0015",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-016",
+      "cliente_id": "CLI-016",
+      "tipo": "router",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0016",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-017",
+      "cliente_id": "CLI-017",
+      "tipo": "portatil",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0017",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-018",
+      "cliente_id": "CLI-018",
+      "tipo": "escritorio",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0018",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-019",
+      "cliente_id": "CLI-019",
+      "tipo": "impresora",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0019",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-020",
+      "cliente_id": "CLI-020",
+      "tipo": "router",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0020",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-021",
+      "cliente_id": "CLI-021",
+      "tipo": "portatil",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0021",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-022",
+      "cliente_id": "CLI-022",
+      "tipo": "escritorio",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0022",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-023",
+      "cliente_id": "CLI-023",
+      "tipo": "impresora",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0023",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-024",
+      "cliente_id": "CLI-024",
+      "tipo": "router",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0024",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-025",
+      "cliente_id": "CLI-025",
+      "tipo": "portatil",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0025",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-026",
+      "cliente_id": "CLI-026",
+      "tipo": "escritorio",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0026",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-027",
+      "cliente_id": "CLI-027",
+      "tipo": "impresora",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0027",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-028",
+      "cliente_id": "CLI-028",
+      "tipo": "router",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0028",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-029",
+      "cliente_id": "CLI-029",
+      "tipo": "portatil",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0029",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-030",
+      "cliente_id": "CLI-030",
+      "tipo": "escritorio",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0030",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-031",
+      "cliente_id": "CLI-001",
+      "tipo": "impresora",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0031",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-032",
+      "cliente_id": "CLI-002",
+      "tipo": "router",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0032",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-033",
+      "cliente_id": "CLI-003",
+      "tipo": "portatil",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0033",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-034",
+      "cliente_id": "CLI-004",
+      "tipo": "escritorio",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0034",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-035",
+      "cliente_id": "CLI-005",
+      "tipo": "impresora",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0035",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-036",
+      "cliente_id": "CLI-006",
+      "tipo": "router",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0036",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-037",
+      "cliente_id": "CLI-007",
+      "tipo": "portatil",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0037",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-038",
+      "cliente_id": "CLI-008",
+      "tipo": "escritorio",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0038",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-039",
+      "cliente_id": "CLI-009",
+      "tipo": "impresora",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0039",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-040",
+      "cliente_id": "CLI-010",
+      "tipo": "router",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0040",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-041",
+      "cliente_id": "CLI-011",
+      "tipo": "portatil",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0041",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-042",
+      "cliente_id": "CLI-012",
+      "tipo": "escritorio",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0042",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-043",
+      "cliente_id": "CLI-013",
+      "tipo": "impresora",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0043",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-044",
+      "cliente_id": "CLI-014",
+      "tipo": "router",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0044",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-045",
+      "cliente_id": "CLI-015",
+      "tipo": "portatil",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0045",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-046",
+      "cliente_id": "CLI-016",
+      "tipo": "escritorio",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0046",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-047",
+      "cliente_id": "CLI-017",
+      "tipo": "impresora",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0047",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-048",
+      "cliente_id": "CLI-018",
+      "tipo": "router",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0048",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-049",
+      "cliente_id": "CLI-019",
+      "tipo": "portatil",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0049",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-050",
+      "cliente_id": "CLI-020",
+      "tipo": "escritorio",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0050",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-051",
+      "cliente_id": "CLI-021",
+      "tipo": "impresora",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0051",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-052",
+      "cliente_id": "CLI-022",
+      "tipo": "router",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0052",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-053",
+      "cliente_id": "CLI-023",
+      "tipo": "portatil",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0053",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-054",
+      "cliente_id": "CLI-024",
+      "tipo": "escritorio",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0054",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-055",
+      "cliente_id": "CLI-025",
+      "tipo": "impresora",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0055",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-056",
+      "cliente_id": "CLI-026",
+      "tipo": "router",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0056",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-057",
+      "cliente_id": "CLI-027",
+      "tipo": "portatil",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0057",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-058",
+      "cliente_id": "CLI-028",
+      "tipo": "escritorio",
+      "marca": "Marca Alfa",
+      "serie": "SIM-125-0058",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-059",
+      "cliente_id": "CLI-029",
+      "tipo": "impresora",
+      "marca": "Marca Beta",
+      "serie": "SIM-125-0059",
+      "garantia": false,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "EQ-060",
+      "cliente_id": "CLI-030",
+      "tipo": "router",
+      "marca": "Marca Gamma",
+      "serie": "SIM-125-0060",
+      "garantia": true,
+      "origen": "sintetico_kevin_125_v1"
+    }
+  ],
+  "tickets": [
+    {
+      "_id": "TK-0001",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-009",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-01T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 160000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0002",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-08T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0003",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-01-15T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0004",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-22T20:00:00Z",
+      "fecha_cierre": "2026-01-25T02:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0005",
+      "cliente_id": "CLI-008",
+      "equipo_id": "EQ-008",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-29T15:00:00Z",
+      "fecha_cierre": "2026-02-02T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 235000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0006",
+      "cliente_id": "CLI-023",
+      "equipo_id": "EQ-023",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-05T14:00:00Z",
+      "fecha_cierre": "2026-02-06T22:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0007",
+      "cliente_id": "CLI-018",
+      "equipo_id": "EQ-018",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-02-12T17:00:00Z",
+      "fecha_cierre": "2026-02-16T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0008",
+      "cliente_id": "CLI-027",
+      "equipo_id": "EQ-057",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-19T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0009",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-26T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0010",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-05T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0011",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-12T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0012",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-19T16:00:00Z",
+      "fecha_cierre": "2026-03-22T18:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0013",
+      "cliente_id": "CLI-016",
+      "equipo_id": "EQ-016",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-26T19:00:00Z",
+      "fecha_cierre": "2026-03-28T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0014",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-003",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-02T18:00:00Z",
+      "fecha_cierre": "2026-04-02T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0015",
+      "cliente_id": "CLI-022",
+      "equipo_id": "EQ-022",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-09T21:00:00Z",
+      "fecha_cierre": "2026-04-10T00:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0016",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-04-16T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0017",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-23T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 120000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0018",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-30T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0019",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-05-07T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0020",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-05-14T20:00:00Z",
+      "fecha_cierre": "2026-05-18T10:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0021",
+      "cliente_id": "CLI-016",
+      "equipo_id": "EQ-016",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-05-21T15:00:00Z",
+      "fecha_cierre": "2026-05-25T04:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 170000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0022",
+      "cliente_id": "CLI-023",
+      "equipo_id": "EQ-023",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-05-28T14:00:00Z",
+      "fecha_cierre": "2026-05-30T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0023",
+      "cliente_id": "CLI-016",
+      "equipo_id": "EQ-046",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-06-04T17:00:00Z",
+      "fecha_cierre": "2026-06-06T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0024",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-06-11T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0025",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-06-18T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 135000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0026",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-06-25T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0027",
+      "cliente_id": "CLI-029",
+      "equipo_id": "EQ-029",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-07-02T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0028",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-009",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-07-09T16:00:00Z",
+      "fecha_cierre": "2026-07-11T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0029",
+      "cliente_id": "CLI-018",
+      "equipo_id": "EQ-048",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-07-16T19:00:00Z",
+      "fecha_cierre": "2026-07-17T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 90000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0030",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-035",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-07-23T18:00:00Z",
+      "fecha_cierre": "2026-07-25T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0031",
+      "cliente_id": "CLI-012",
+      "equipo_id": "EQ-042",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-07-30T21:00:00Z",
+      "fecha_cierre": "2026-08-03T00:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 140000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0032",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-08-06T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0033",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-08-13T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0034",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-08-20T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0035",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-08-27T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0036",
+      "cliente_id": "CLI-019",
+      "equipo_id": "EQ-049",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-09-03T20:00:00Z",
+      "fecha_cierre": "2026-09-04T14:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0037",
+      "cliente_id": "CLI-002",
+      "equipo_id": "EQ-032",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-09-10T15:00:00Z",
+      "fecha_cierre": "2026-09-12T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 160000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0038",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-003",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-09-17T14:00:00Z",
+      "fecha_cierre": "2026-09-18T16:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0039",
+      "cliente_id": "CLI-006",
+      "equipo_id": "EQ-006",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-09-24T17:00:00Z",
+      "fecha_cierre": "2026-09-25T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0040",
+      "cliente_id": "CLI-029",
+      "equipo_id": "EQ-029",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-10-01T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0041",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-10-08T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 160000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0042",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-10-15T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0043",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-07T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0044",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-009",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-14T16:00:00Z",
+      "fecha_cierre": "2026-01-17T04:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0045",
+      "cliente_id": "CLI-008",
+      "equipo_id": "EQ-008",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-01-21T19:00:00Z",
+      "fecha_cierre": "2026-01-22T04:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0046",
+      "cliente_id": "CLI-027",
+      "equipo_id": "EQ-027",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-28T18:00:00Z",
+      "fecha_cierre": "2026-01-31T02:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0047",
+      "cliente_id": "CLI-010",
+      "equipo_id": "EQ-010",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-04T21:00:00Z",
+      "fecha_cierre": "2026-02-07T04:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0048",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-11T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0049",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-02-18T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 140000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0050",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-25T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0051",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-04T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0052",
+      "cliente_id": "CLI-019",
+      "equipo_id": "EQ-049",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-11T20:00:00Z",
+      "fecha_cierre": "2026-03-12T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0053",
+      "cliente_id": "CLI-004",
+      "equipo_id": "EQ-004",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-18T15:00:00Z",
+      "fecha_cierre": "2026-03-20T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 165000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0054",
+      "cliente_id": "CLI-023",
+      "equipo_id": "EQ-023",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-25T14:00:00Z",
+      "fecha_cierre": "2026-03-26T10:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0055",
+      "cliente_id": "CLI-024",
+      "equipo_id": "EQ-054",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-04-01T17:00:00Z",
+      "fecha_cierre": "2026-04-02T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 45000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0056",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-08T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0057",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-037",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-15T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 150000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0058",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-04-22T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0059",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-29T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0060",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-05-06T16:00:00Z",
+      "fecha_cierre": "2026-05-09T18:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0061",
+      "cliente_id": "CLI-024",
+      "equipo_id": "EQ-024",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-05-13T19:00:00Z",
+      "fecha_cierre": "2026-05-16T18:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 170000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0062",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-051",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-05-20T18:00:00Z",
+      "fecha_cierre": "2026-05-23T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0063",
+      "cliente_id": "CLI-010",
+      "equipo_id": "EQ-010",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-05-27T21:00:00Z",
+      "fecha_cierre": "2026-05-28T10:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0064",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-06-03T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0065",
+      "cliente_id": "CLI-029",
+      "equipo_id": "EQ-029",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-06-10T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 145000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0066",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-06-17T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0067",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-06-24T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0068",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-07-01T20:00:00Z",
+      "fecha_cierre": "2026-07-03T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0069",
+      "cliente_id": "CLI-028",
+      "equipo_id": "EQ-028",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-07-08T15:00:00Z",
+      "fecha_cierre": "2026-07-11T20:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 230000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0070",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-015",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-07-15T14:00:00Z",
+      "fecha_cierre": "2026-07-17T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0071",
+      "cliente_id": "CLI-030",
+      "equipo_id": "EQ-030",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-07-22T17:00:00Z",
+      "fecha_cierre": "2026-07-22T22:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 60000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0072",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-07-29T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0073",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-037",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-08-05T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 155000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0074",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-08-12T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0075",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-08-19T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0076",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-08-26T16:00:00Z",
+      "fecha_cierre": "2026-08-27T14:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0077",
+      "cliente_id": "CLI-030",
+      "equipo_id": "EQ-060",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-09-02T19:00:00Z",
+      "fecha_cierre": "2026-09-04T04:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 160000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0078",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-035",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-09-09T18:00:00Z",
+      "fecha_cierre": "2026-09-10T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0079",
+      "cliente_id": "CLI-008",
+      "equipo_id": "EQ-038",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-09-16T21:00:00Z",
+      "fecha_cierre": "2026-09-18T18:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 45000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0080",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-09-23T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0081",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-09-30T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 140000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0082",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-10-07T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0083",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-10-14T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0084",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-025",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-01-06T20:00:00Z",
+      "fecha_cierre": "2026-01-07T02:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0085",
+      "cliente_id": "CLI-002",
+      "equipo_id": "EQ-032",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-13T15:00:00Z",
+      "fecha_cierre": "2026-01-15T02:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0086",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-051",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-20T14:00:00Z",
+      "fecha_cierre": "2026-01-20T20:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0087",
+      "cliente_id": "CLI-012",
+      "equipo_id": "EQ-042",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-01-27T17:00:00Z",
+      "fecha_cierre": "2026-01-30T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0088",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-02-03T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0089",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-10T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0090",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-17T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0091",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-02-24T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0092",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-03T16:00:00Z",
+      "fecha_cierre": "2026-03-07T08:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0093",
+      "cliente_id": "CLI-010",
+      "equipo_id": "EQ-040",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-10T19:00:00Z",
+      "fecha_cierre": "2026-03-13T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0094",
+      "cliente_id": "CLI-023",
+      "equipo_id": "EQ-023",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-17T18:00:00Z",
+      "fecha_cierre": "2026-03-20T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0095",
+      "cliente_id": "CLI-028",
+      "equipo_id": "EQ-058",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-24T21:00:00Z",
+      "fecha_cierre": "2026-03-25T00:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0096",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-31T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0097",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-04-07T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 150000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0098",
+      "cliente_id": "CLI-027",
+      "equipo_id": "EQ-057",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-14T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0099",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-21T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0100",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-04-28T20:00:00Z",
+      "fecha_cierre": "2026-05-01T16:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0101",
+      "cliente_id": "CLI-020",
+      "equipo_id": "EQ-020",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-05-05T15:00:00Z",
+      "fecha_cierre": "2026-05-08T10:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 90000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0102",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-031",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-05-12T14:00:00Z",
+      "fecha_cierre": "2026-05-15T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0103",
+      "cliente_id": "CLI-014",
+      "equipo_id": "EQ-014",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-05-19T17:00:00Z",
+      "fecha_cierre": "2026-05-22T18:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0104",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-05-26T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0105",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-06-02T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 145000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0106",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-06-09T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0107",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-06-16T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0108",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-06-23T16:00:00Z",
+      "fecha_cierre": "2026-06-24T20:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0109",
+      "cliente_id": "CLI-024",
+      "equipo_id": "EQ-024",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-06-30T19:00:00Z",
+      "fecha_cierre": "2026-07-02T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 170000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0110",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-043",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-07-07T18:00:00Z",
+      "fecha_cierre": "2026-07-08T20:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0111",
+      "cliente_id": "CLI-016",
+      "equipo_id": "EQ-046",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-07-14T21:00:00Z",
+      "fecha_cierre": "2026-07-18T02:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 60000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0112",
+      "cliente_id": "CLI-027",
+      "equipo_id": "EQ-057",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-07-21T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0113",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-07-28T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 135000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0114",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-08-04T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0115",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-08-11T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0116",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-08-18T20:00:00Z",
+      "fecha_cierre": "2026-08-20T04:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0117",
+      "cliente_id": "CLI-014",
+      "equipo_id": "EQ-044",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-08-25T15:00:00Z",
+      "fecha_cierre": "2026-08-27T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 220000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0118",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-007",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-09-01T14:00:00Z",
+      "fecha_cierre": "2026-09-03T16:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0119",
+      "cliente_id": "CLI-020",
+      "equipo_id": "EQ-050",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-09-08T17:00:00Z",
+      "fecha_cierre": "2026-09-10T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0120",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-09-15T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0121",
+      "cliente_id": "CLI-019",
+      "equipo_id": "EQ-049",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-09-22T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 140000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0122",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-09-29T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0123",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-10-06T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0124",
+      "cliente_id": "CLI-019",
+      "equipo_id": "EQ-049",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-10-13T16:00:00Z",
+      "fecha_cierre": "2026-10-15T18:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0125",
+      "cliente_id": "CLI-016",
+      "equipo_id": "EQ-016",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-05T19:00:00Z",
+      "fecha_cierre": "2026-01-08T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0126",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-031",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-01-12T18:00:00Z",
+      "fecha_cierre": "2026-01-16T04:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0127",
+      "cliente_id": "CLI-010",
+      "equipo_id": "EQ-010",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-19T21:00:00Z",
+      "fecha_cierre": "2026-01-22T16:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0128",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-009",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-26T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0129",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-02T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 160000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0130",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-037",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-02-09T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0131",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-16T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0132",
+      "cliente_id": "CLI-019",
+      "equipo_id": "EQ-049",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-23T20:00:00Z",
+      "fecha_cierre": "2026-02-26T00:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0133",
+      "cliente_id": "CLI-018",
+      "equipo_id": "EQ-048",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-02T15:00:00Z",
+      "fecha_cierre": "2026-03-04T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 225000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0134",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-039",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-09T14:00:00Z",
+      "fecha_cierre": "2026-03-11T16:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0135",
+      "cliente_id": "CLI-026",
+      "equipo_id": "EQ-026",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-16T17:00:00Z",
+      "fecha_cierre": "2026-03-18T16:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0136",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-23T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0137",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-30T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 120000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0138",
+      "cliente_id": "CLI-027",
+      "equipo_id": "EQ-057",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-06T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0139",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-04-13T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0140",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-20T16:00:00Z",
+      "fecha_cierre": "2026-04-24T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0141",
+      "cliente_id": "CLI-010",
+      "equipo_id": "EQ-040",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-27T19:00:00Z",
+      "fecha_cierre": "2026-04-28T06:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 90000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0142",
+      "cliente_id": "CLI-029",
+      "equipo_id": "EQ-059",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-05-04T18:00:00Z",
+      "fecha_cierre": "2026-05-07T18:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0143",
+      "cliente_id": "CLI-016",
+      "equipo_id": "EQ-046",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-05-11T21:00:00Z",
+      "fecha_cierre": "2026-05-13T02:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0144",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-009",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-05-18T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0145",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-05-25T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 165000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0146",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-06-01T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0147",
+      "cliente_id": "CLI-021",
+      "equipo_id": "EQ-021",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-06-08T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0148",
+      "cliente_id": "CLI-001",
+      "equipo_id": "EQ-001",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-06-15T20:00:00Z",
+      "fecha_cierre": "2026-06-16T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0149",
+      "cliente_id": "CLI-006",
+      "equipo_id": "EQ-036",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-06-22T15:00:00Z",
+      "fecha_cierre": "2026-06-23T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 170000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0150",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-007",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-06-29T14:00:00Z",
+      "fecha_cierre": "2026-06-30T00:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0151",
+      "cliente_id": "CLI-018",
+      "equipo_id": "EQ-018",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-07-06T17:00:00Z",
+      "fecha_cierre": "2026-07-07T14:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 60000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0152",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-07-13T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0153",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-07-20T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 155000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0154",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-037",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-07-27T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0155",
+      "cliente_id": "CLI-027",
+      "equipo_id": "EQ-057",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-08-03T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0156",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-08-10T16:00:00Z",
+      "fecha_cierre": "2026-08-11T06:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0157",
+      "cliente_id": "CLI-006",
+      "equipo_id": "EQ-036",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-08-17T19:00:00Z",
+      "fecha_cierre": "2026-08-19T02:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 80000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0158",
+      "cliente_id": "CLI-025",
+      "equipo_id": "EQ-055",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-08-24T18:00:00Z",
+      "fecha_cierre": "2026-08-27T08:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0159",
+      "cliente_id": "CLI-018",
+      "equipo_id": "EQ-018",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-08-31T21:00:00Z",
+      "fecha_cierre": "2026-09-02T20:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "diagnostico",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 45000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0160",
+      "cliente_id": "CLI-019",
+      "equipo_id": "EQ-049",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-09-07T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0161",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-09-14T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 30000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 130000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0162",
+      "cliente_id": "CLI-029",
+      "equipo_id": "EQ-029",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-09-21T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0163",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-09-28T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0164",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-10-05T20:00:00Z",
+      "fecha_cierre": "2026-10-09T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0165",
+      "cliente_id": "CLI-004",
+      "equipo_id": "EQ-004",
+      "tecnico_id": "TEC-04",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-10-12T15:00:00Z",
+      "fecha_cierre": "2026-10-16T06:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 50000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 175000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0166",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-039",
+      "tecnico_id": "TEC-03",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-04T14:00:00Z",
+      "fecha_cierre": "2026-01-06T08:00:00Z",
+      "estado_pago": "pendiente",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0167",
+      "cliente_id": "CLI-012",
+      "equipo_id": "EQ-042",
+      "tecnico_id": "TEC-06",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-01-11T17:00:00Z",
+      "fecha_cierre": "2026-01-14T20:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 125000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0168",
+      "cliente_id": "CLI-029",
+      "equipo_id": "EQ-029",
+      "tecnico_id": "TEC-02",
+      "estado": "cancelado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-01-18T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0169",
+      "cliente_id": "CLI-005",
+      "equipo_id": "EQ-005",
+      "tecnico_id": "TEC-06",
+      "estado": "abierto",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-01-25T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 45000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 140000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0170",
+      "cliente_id": "CLI-003",
+      "equipo_id": "EQ-033",
+      "tecnico_id": "TEC-02",
+      "estado": "en_proceso",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-01T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "configuracion_red",
+          "cantidad": 1,
+          "precio_unitario_cop": 115000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 115000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0171",
+      "cliente_id": "CLI-015",
+      "equipo_id": "EQ-045",
+      "tecnico_id": "TEC-06",
+      "estado": "espera_repuesto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-02-08T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 100000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0172",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-05",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-02-15T16:00:00Z",
+      "fecha_cierre": "2026-02-17T12:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0173",
+      "cliente_id": "CLI-004",
+      "equipo_id": "EQ-004",
+      "tecnico_id": "TEC-08",
+      "estado": "cerrado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-02-22T19:00:00Z",
+      "fecha_cierre": "2026-02-24T00:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "instalacion_software",
+          "cantidad": 1,
+          "precio_unitario_cop": 125000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 40000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 165000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0174",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-007",
+      "tecnico_id": "TEC-07",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-01T18:00:00Z",
+      "fecha_cierre": "2026-03-02T14:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 95000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0175",
+      "cliente_id": "CLI-004",
+      "equipo_id": "EQ-034",
+      "tecnico_id": "TEC-02",
+      "estado": "cerrado",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-08T21:00:00Z",
+      "fecha_cierre": "2026-03-10T00:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "reparacion_hardware",
+          "cantidad": 1,
+          "precio_unitario_cop": 185000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 185000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0176",
+      "cliente_id": "CLI-009",
+      "equipo_id": "EQ-009",
+      "tecnico_id": "TEC-06",
+      "estado": "cancelado",
+      "prioridad": "media",
+      "fecha_apertura": "2026-03-15T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "mantenimiento",
+          "cantidad": 1,
+          "precio_unitario_cop": 95000
+        }
+      ],
+      "desplazamiento_cop": 15000,
+      "total_cop": 110000,
+      "etiquetas": [
+        "prueba",
+        "domicilio"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0177",
+      "cliente_id": "CLI-007",
+      "equipo_id": "EQ-037",
+      "tecnico_id": "TEC-02",
+      "estado": "abierto",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-03-22T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        },
+        {
+          "servicio": "insumo_repuesto",
+          "cantidad": 1,
+          "precio_unitario_cop": 35000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 120000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0178",
+      "cliente_id": "CLI-011",
+      "equipo_id": "EQ-041",
+      "tecnico_id": "TEC-06",
+      "estado": "en_proceso",
+      "prioridad": "baja",
+      "fecha_apertura": "2026-03-29T20:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0179",
+      "cliente_id": "CLI-017",
+      "equipo_id": "EQ-017",
+      "tecnico_id": "TEC-02",
+      "estado": "espera_repuesto",
+      "prioridad": "media",
+      "fecha_apertura": "2026-04-05T16:00:00Z",
+      "fecha_cierre": null,
+      "estado_pago": "no_aplica",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    },
+    {
+      "_id": "TK-0180",
+      "cliente_id": "CLI-013",
+      "equipo_id": "EQ-013",
+      "tecnico_id": "TEC-01",
+      "estado": "cerrado",
+      "prioridad": "alta",
+      "fecha_apertura": "2026-04-12T20:00:00Z",
+      "fecha_cierre": "2026-04-13T22:00:00Z",
+      "estado_pago": "pagado",
+      "servicios": [
+        {
+          "servicio": "respaldo_datos",
+          "cantidad": 1,
+          "precio_unitario_cop": 85000
+        }
+      ],
+      "desplazamiento_cop": 0,
+      "total_cop": 85000,
+      "etiquetas": [
+        "prueba",
+        "taller"
+      ],
+      "revisiones": 0,
+      "origen": "sintetico_kevin_125_v1"
+    }
+  ]
+}

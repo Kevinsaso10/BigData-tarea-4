@@ -1,0 +1,12 @@
+Cordial saludo, tutor y compañeros.
+
+Comparto mi caso de uso para la Tarea 4: un sistema de soporte técnico y mantenimiento de equipos, orientado a consultar el estado de las solicitudes, relacionarlas con clientes y técnicos y analizar los importes de los servicios.
+
+El modelo contempla cuatro colecciones: clientes, técnicos, equipos y tickets. Los tickets contienen referencias a las otras colecciones y un arreglo de servicios con sus cantidades y precios históricos. La base de prueba utiliza datos sintéticos y cuenta con 30 clientes, 8 técnicos, 60 equipos y 180 tickets, para un total de 278 documentos.
+
+Estoy desarrollando las operaciones de inserción, selección, actualización y eliminación, junto con filtros, consultas entre colecciones y agregaciones de conteo, suma y promedio. Para mantener la interpretación de los resultados, diferencio solicitudes abiertas, en proceso, en espera de repuesto, cerradas y canceladas. También separo el valor facturado de las solicitudes cerradas del importe efectivamente cobrado de las que figuran como pagadas.
+
+Compartiré las capturas de las consultas y sus resultados en la presentación individual, así como los archivos para integrarlos al informe grupal.
+
+Kevin Obed Tique Villada
+Grupo 202016911_125
